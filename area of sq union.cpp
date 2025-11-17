@@ -6,14 +6,6 @@
 using namespace std;
 
 
-/*
-I couldnt pinpoint where i went wrong for my previous code
-so I asked LLm about it
-llm switched horizontal line sweeping and to vertical line sweeping
-and for some reason the current version of the code works correctly 
-I don't really know where my previous code went wrong since it was just simply
-x and y switching.
-*/
 struct Interval{
     double yB, yT;
     int id;
